@@ -109,7 +109,7 @@
                     <div class="form__top">
                       <div class="input-wrapper" data-input-parent="">
                         <div class="input-wrapper__placeholder">Ваше имя</div>
-                        <input class="input" data-input="" required="required" type="text" placeholder="Ваше имя"/>
+                        <input class="input" data-input="" required="required" type="text" noRequired="noRequired" placeholder="Ваше имя"/>
                         <svg class="input-wrapper-svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
                           <path d="M18.15 18.15L29.85 29.85" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           <path d="M18.15 29.85L29.85 18.15" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -142,12 +142,17 @@
                       <div class="input-wrapper" data-input-parent="">
                         <div class="input-wrapper__placeholder">Сообщение</div>
                         <textarea class="textarea" data-input="" type="text" placeholder="Сообщение"></textarea>
+                        <svg class="input-wrapper-svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                          <path d="M18.15 18.15L29.85 29.85" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          <path d="M18.15 29.85L29.85 18.15" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
                       </div>
                     </div>
                     <div class="form__bottom">
                       <div class="form__text">
                         <p>Нажимая на кнопку «Отправить» я даю согласие на условия<a href="#"> политики в отношении обработки персональных данных</a></p>
-                      </div><a class="btn btn--winona btn_pink form__button" data-text="Отправить"><span>Отправить</span></a>
+                      </div>
+                      <button class="btn btn--winona btn_pink form__button" data-text="Отправить"><span>Отправить</span></button>
                     </div>
                   </div>
                 </form>
@@ -171,7 +176,8 @@
                 </defs>
               </svg>
             </div>
-            <p class="partners-request__title">Мы получили ваш запрос и скоро вернемся с ответом.</p><a class="btn btn--winona btn_pink partners-request__button" data-text="Закрыть"><span>Закрыть</span></a>
+            <p class="partners-request__title">Мы получили ваш запрос и скоро вернемся с ответом.</p>
+            <button class="btn btn--winona btn_pink partners-request__button" data-text="Закрыть"><span>Закрыть</span></button>
           </div>
         </div>
       </div>
@@ -594,7 +600,8 @@
             </nav>
           </div>
           <div class="header__phone"><a class="header__number link link--metis" href="tel:88124485465">8 812 448-54-65</a></div>
-          <div class="header__partners"><a class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></a>
+          <div class="header__partners">
+            <button class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></button>
           </div>
         </div>
         <div class="header__search">
@@ -607,7 +614,8 @@
                   <path d="M18.15 18.15L29.85 29.85" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                   <path d="M18.15 29.85L29.85 18.15" stroke="#A5B7B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-              </div><a class="btn btn--winona btn_pink search__button" data-text="Найти"><span>Найти</span></a>
+              </div>
+              <button class="btn btn--winona btn_pink search__button" data-text="Найти"><span>Найти</span></button>
             </form>
           </div>
         </div>
@@ -1485,7 +1493,7 @@
           </div>
         </div>
       </main>
-      <footer class="footer" data-aos="fade-up">
+      <footer class="footer">
         <div class="footer__inner">
           <div class="footer__desktop desktop-footer">
             <div class="footer__col">
@@ -1552,7 +1560,8 @@
               </div>
             </div>
             <div class="footer__col">
-              <div class="footer__button"><a class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></a>
+              <div class="footer__button">
+                <button class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></button>
               </div>
               <p class="footer__cloudmill">Сделано <a href="https://cloudmill.ru/" target="_blank">Клаудмил</a></p>
             </div>
@@ -1615,7 +1624,8 @@
                   <svg class="ui-svg svg--footerLogo footer__man">
                     <use xlink:href="#footerLogo"></use>
                   </svg>
-                  <div class="footer__button"><a class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></a>
+                  <div class="footer__button">
+                    <button class="btn btn--winona btn_pink" data-text="Стать партнером" data-partners-button="data-partners-button"><span>Стать партнером</span></button>
                   </div>
                 </div>
               </div>
